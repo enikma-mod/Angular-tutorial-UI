@@ -7,9 +7,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
-  //landing page - default routing 
-  { path: '', component: NavbarComponent },
-  { path: 'home', component: HomepageComponent },
+  { path: 'nav', component: NavbarComponent },
+  { path: '', component: HomepageComponent },
   { path: 'cart', component: CartComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'footer', component: FooterComponent }
